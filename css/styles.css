@@ -186,6 +186,7 @@ body {
   gap: 10px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-type-button:hover,
@@ -437,6 +438,7 @@ header .logo-type {
   border-radius: 50%;
   border: 1px solid #4d5ae5;
   background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-link:hover,
@@ -469,7 +471,10 @@ header .logo-type {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-media-link-footer:hover,
+.social-media-link-footer:hover {
+  background-color: #31d0aa;
+}
+
 .social-media-link-footer:focus {
   background-color: #31d0aa;
 }
