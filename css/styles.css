@@ -161,7 +161,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/fond.jpg);
+    url(../images/fond.jpg);
   background-size: cover;
   max-width: 1440px;
   background-repeat: no-repeat;
@@ -409,13 +409,13 @@ header .logo-type {
   justify-content: center;
   margin-bottom: 8px;
 }
-
+/*  
 .box-second-icon-item {
   margin-top: 24px;
   margin-bottom: 24px;
   margin-left: 100px;
   margin-right: 100px;
-}
+}*/
 
 .social-media-list {
   display: flex;
@@ -484,7 +484,6 @@ header .logo-type {
 }  */
 
 .logo-text-box-footer {
-  width: 420px;
   margin-right: 120px;
 }
 
